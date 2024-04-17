@@ -90,11 +90,19 @@
   .menu__lista {
     height: auto;
     padding: 20px 17px 20px 15px;
+    gap: 15px;
   }
 
   .menu__lista:nth-child(2),
   .menu__lista:nth-child(3),
   .menu__lista:nth-child(4){
     display: flex;
+  }
+
+  .menu__itens {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
   }
 }
