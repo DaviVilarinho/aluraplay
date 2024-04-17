@@ -11,8 +11,18 @@
   display: none;
 }
 
+.rodape__container {
+  display: flex;
+  flex-flow: column wrap;
+}
+
+/* tablet */
 @media(min-width: 834px) {
   .cabecalho__pesquisar__item {
     display: block;
+  }
+
+  .rodape__container {
+    justify-content: space-between;
   }
 }
