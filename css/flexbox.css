@@ -85,6 +85,7 @@
     left: 0%;
     width: 239px;
     overflow: scroll;
+    height: auto;
   }
 
   .menu__lista {
@@ -105,4 +106,12 @@
     align-items: center;
     gap: 15px;
   }
+
+  .menu__lista:nth-child(3) {
+    flex-direction: column-reverse;
+  }
+
+  .jogos { order: 3 }
+  .filmes { order: 2 }
+  .premium { order: 1 }
 }
