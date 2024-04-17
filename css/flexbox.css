@@ -114,4 +114,5 @@
   .jogos { order: 3 }
   .filmes { order: 2 }
   .premium { order: 1 }
+  .maispagina { order: 4 }
 }
