@@ -74,9 +74,27 @@
   .menu__lista {
     display: flex;
     flex-flow: column nowrap;
-    justify-content: flex-start;
     height: 100%;
     gap: 33px;
     padding-top: 15px;
+  }
+}
+
+@media(min-width: 1024px) {
+  .menu__container {
+    left: 0%;
+    width: 239px;
+    overflow: scroll;
+  }
+
+  .menu__lista {
+    height: auto;
+    padding: 20px 17px 20px 15px;
+  }
+
+  .menu__lista:nth-child(2),
+  .menu__lista:nth-child(3),
+  .menu__lista:nth-child(4){
+    display: flex;
   }
 }
