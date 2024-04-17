@@ -1,3 +1,9 @@
+# README
+
+Isto é parte do curso de flexbox da alura
+
+## Resto
+
 Vídeos da sessão vídeos:
 
         <li class="videos__item">

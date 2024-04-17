@@ -4,7 +4,7 @@
   justify-content: space-between;
   align-items: center;
   position: fixed;
-  top: 0px;
+  top: 0;
 }
 
 .cabecalho__pesquisar__item {
@@ -53,6 +53,12 @@
   display: none;
 }
 
+.videos__item {
+  height: 303px;
+  width: 280px;
+  flex-grow: 1;
+}
+
 /* tablet */
 @media(min-width: 768px) {
   .cabecalho__pesquisar__item {
@@ -64,17 +70,15 @@
   }
 
   .menu__container {
-    position: fixed;
-    left: 0%;
-    height: 100%;
+    left: 0;
+    height: auto;
     width: 74px;
     top: 80px;
   }
 
   .menu__lista {
-    display: flex;
-    flex-flow: column nowrap;
-    height: 100%;
+    flex-direction: column;
+    justify-content: flex-start;
     gap: 33px;
     padding-top: 15px;
   }
@@ -82,10 +86,8 @@
 
 @media(min-width: 1024px) {
   .menu__container {
-    left: 0%;
     width: 239px;
     overflow: scroll;
-    height: auto;
   }
 
   .menu__lista {
@@ -101,7 +103,6 @@
   }
 
   .menu__itens {
-    display: flex;
     flex-direction: row;
     align-items: center;
     gap: 15px;
